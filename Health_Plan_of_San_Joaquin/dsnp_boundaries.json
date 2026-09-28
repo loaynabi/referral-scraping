@@ -1,0 +1,17 @@
+{
+  "El_Dorado_Alpine": {
+    "n_pages": 125,
+    "pcp_start": 74,
+    "pcp_end": 79
+  },
+  "San_Joaquin": {
+    "n_pages": 230,
+    "pcp_start": 74,
+    "pcp_end": 99
+  },
+  "Stanislaus": {
+    "n_pages": 178,
+    "pcp_start": 74,
+    "pcp_end": 86
+  }
+}

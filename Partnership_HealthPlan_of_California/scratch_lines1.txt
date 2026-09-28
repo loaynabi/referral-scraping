@@ -1,0 +1,120 @@
+0	Chico
+1	Ampla Health Chico Medical &
+2	Pediatrics
+3	PCP PHC#:5773-0006
+4	NPI: 1316963606
+5	FQHC
+6	Family Medicine, Internal Medicine,
+7	Pediatrics
+8	Accepting New Patients
+9	No Age Limitations
+10	CHDP Provider
+11	Cohasset Rd
+12	Chico, CA 95926
+13	P,EB,E,T
+14	Level of Access: Limited
+15	Primary Phone: (530) 342-4395
+16	Primary Fax: (530) 894-2325
+17	Mon - Sat 8:00 AM - 7:00 PM
+18	Sun 9:00 AM - 4:00 PM
+19	Singh, Amitabh, DO
+20	NPI: 1053843540
+21	License: 20A18038
+22	Gender: Male
+23	Race: Decline_to_State
+24	Ethnicity: Decline to State
+25	Family Medicine
+26	Johnson, Megan Jo, MD
+27	NPI: 1336288984
+28	License: G61655
+29	Gender: Female
+30	Race: Unknown
+31	Ethnicity: Unknown
+32	Thompson, Darren R, DO
+33	NPI: 1942513734
+34	License: 20A13605
+35	Gender: Male
+36	Portuguese, Spanish
+37	Race: White
+38	Ethnicity: Hispanic or Latino
+39	Tyagi, Neha, MD
+40	NPI: 1518372986
+41	License: A165721
+42	Gender: Female
+43	Hindi
+44	Race: Unknown
+45	Ethnicity: Unknown
+46	Internal Medicine
+47	Al-Dwairi, Abdullah Muhammad,
+48	MD
+49	NPI: 39170806
+50	License: A79949
+51	Gender: Male
+52	Arabic
+53	Race: Unknown
+54	Ethnicity: Unknown
+55	Carrasquillo Navarro, Marytere, MD
+56	♦ In fectious Disease
+57	♦ Internal Medicine
+58	NPI: 1851751408
+59	License: A162664
+60	Gender: Female
+61	Spanish
+62	Race: Unknown
+63	Ethnicity: Unknown
+64	Chiapella, Joseph Alan, MD
+65	♦ Internal Medicine
+66	NPI: 1255374252
+67	License: G38718
+68	Gender: Male
+69	CCS Provider
+70	Race: Unknown
+71	Ethnicity: Unknown
+72	Chintamaneni, Sreekanth, MD
+73	♦ Internal Medicine
+74	♦ Rheumatology
+75	NPI: 1427118280
+76	License: C183551
+77	Gender: Male
+78	Race: Asian
+79	Ethnicity: Unknown
+80	Sarsam, Luay, MD
+81	NPI: 1558744953
+82	License: A153823
+83	Gender: Male
+84	Arabic, French
+85	Race: Unknown
+86	Ethnicity: Unknown
+87	Singh, Amitabh, DO
+88	NPI: 1053843540
+89	License: 20A18038
+90	Gender: Male
+91	Race: Decline_to_State
+92	Ethnicity: Decline to State
+93	Pediatrics
+94	Changezi, Ammar Hadi, MD
+95	NPI: 1538428040
+96	License: A124699
+97	Gender: Male
+98	Farsi, Urdu
+99	CCS Provider
+100	Race: Unknown
+101	Ethnicity: Unknown
+102	Linga, Vijay Gandhi, MD
+103	NPI: 1922459031
+104	License: C196057
+105	Gender: Male
+106	Hindi, Kannada, Telugu
+107	Race: Unknown
+108	Ethnicity: Unknown
+109	Carini, Renee Marie, FNP-BC
+110	NPI: 1346287356
+111	License: 11041
+112	Gender: Female
+113	Race: White
+114	Ethnicity: Unknown
+115	Colivas, Thomas James, PA
+116	NPI: 1598966079
+117	License: 11333
+118	Gender: Male
+119	Spanish

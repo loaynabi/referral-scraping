@@ -1,0 +1,6 @@
+chrome_profile/
+chrome-healthtrio-profile/
+__pycache__/
+*.pyc
+*.xlsx
+*.pdf

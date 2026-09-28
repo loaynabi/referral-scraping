@@ -1,0 +1,5 @@
+{
+  "start_page_inclusive": 32,
+  "end_page_exclusive": 378,
+  "notes": "0-indexed pdfplumber page indices. Page 32 begins with an IMAGE banner (not extractable as text) reading 'Primary Care Doctors / Medicos De Atencion Primaria / ...'. Page 378 begins with an image banner reading 'Obstetrics/Gynecologists Doctors / Medicos Obstetras/Ginecologos / ...' which is a NEW section (OB/GYN) distinct from the Primary Care Doctors by City and Specialty section, per the section banner images embedded in the PDF (verified visually by rendering the top of each page as an image, since these section titles are raster images, not selectable text). High confidence boundary: pages 32-377 inclusive (0-indexed) = Primary Care Doctors section (Family Medicine, Pediatrics, General Practice). Pages 378+ = Obstetrics/Gynecologists Doctors section and beyond (excluded per task scope, which targets only the 'Primary Care Doctors' named section)."
+}

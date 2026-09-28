@@ -1,0 +1,100 @@
+
+=== Processing source: medical ===
+  medical::0::Family Medicine::CCRMC::1: 105 rows (2.7s, pages 42-71)
+  medical::1::Internal Medicine::CCRMC::26: 4 rows (0.2s, pages 67-72)
+  medical::2::Pediatrics::CCRMC::27: 17 rows (0.5s, pages 68-77)
+  medical::3::Family Medicine::CPN::32: 137 rows (3.0s, pages 73-109)
+  medical::4::Geriatric Medicine::CPN::64: 1 rows (0.1s, pages 105-109)
+  medical::5::Internal Medicine::CPN::64: 70 rows (1.7s, pages 105-126)
+  medical::6::Pediatrics::CPN::81: 131 rows (3.3s, pages 122-161)
+  medical::7::Neurology::CCRMC::129: 8 rows (0.6s, pages 170-176)
+  medical::8::Orthopaedics::CCRMC::140: 7 rows (0.6s, pages 181-187)
+  medical::9::Rheumatology::CCRMC::148: 7 rows (0.8s, pages 189-195)
+  medical::10::Sleep Medicine::CCRMC::150: 4 rows (0.2s, pages 191-196)
+  medical::11::Surgery - Orthopaedic::CCRMC::154: 7 rows (0.4s, pages 195-201)
+  medical::12::Infectious Disease::CPN::299: 25 rows (1.3s, pages 340-354)
+  medical::13::Neurology::CPN::352: 18 rows (0.7s, pages 393-401)
+  medical::14::Orthopaedics::CPN::408: 44 rows (1.7s, pages 449-464)
+  medical::15::Pain Medicine::CPN::435: 10 rows (0.7s, pages 476-483)
+  medical::16::Perinatology::CPN::468: 3 rows (0.5s, pages 509-513)
+  medical::17::Rheumatology::CPN::519: 29 rows (1.2s, pages 560-575)
+  medical::18::Sleep Medicine::CPN::530: 37 rows (0.8s, pages 571-583)
+  medical::19::Sports Medicine::CPN::538: 23 rows (0.5s, pages 579-588)
+  medical::20::Surgery - Bariatric::CPN::543: 10 rows (0.2s, pages 584-590)
+  medical::21::Surgery - Orthopaedic::CPN::582: 138 rows (3.3s, pages 623-658)
+
+=== Processing source: commercial_a ===
+  commercial_a::0::Family Medicine::CCRMC::1: 108 rows (4.5s, pages 19-49)
+  commercial_a::1::Internal Medicine::CCRMC::27: 1 rows (0.2s, pages 45-50)
+  commercial_a::2::Pediatrics::CCRMC::28: 16 rows (0.7s, pages 46-57)
+
+=== Processing source: commercial_b ===
+  commercial_b::0::Family Medicine::CCRMC::1: 44 rows (1.5s, pages 20-35)
+  commercial_b::1::Internal Medicine::CCRMC::12: 1 rows (0.2s, pages 31-35)
+  commercial_b::2::Pediatrics::CCRMC::12: 5 rows (0.4s, pages 31-37)
+  commercial_b::3::Family Medicine::CPN::14: 132 rows (2.9s, pages 33-67)
+  commercial_b::4::Geriatric Medicine::CPN::44: 1 rows (0.2s, pages 63-68)
+  commercial_b::5::Internal Medicine::CPN::45: 66 rows (1.8s, pages 64-84)
+  commercial_b::6::Pediatrics::CPN::61: 121 rows (3.3s, pages 80-115)
+  commercial_b::7::Perinatology::CPN::123: 3 rows (0.6s, pages 142-147)
+
+Total raw rows across all sources: 1333
+Exact-duplicate rows collapsed (within-source only): 0
+Exact-duplicate rows collapsed (within-source only): 0
+Exact-duplicate rows collapsed (within-source only): 0
+Wrote C:\Users\DamonHollister\Desktop\referral scraping\cchp_providers\CCHP_Referral_Providers_Targeted_Specialties.xlsx rows: 1333
+Copied to C:\Users\DamonHollister\Desktop\referral scraping\output\CCHP_Referral_Providers_Targeted_Specialties.xlsx
+
+=== Row counts by Source File ===
+Source File
+CCHP MediCal Provider Directory 20260814.pdf    835
+CCHP Provider Directory.pdf                     125
+PD3RMCCPN.pdf                                   373
+dtype: int64
+
+=== Row counts by Specialty ===
+Specialty
+Bariatric Surgery           10
+Family Medicine            526
+Geriatric Medicine           2
+Infectious Disease          25
+Internal Medicine          142
+Maternal Fetal Medicine      6
+Neurology                   26
+Orthopedics - General      196
+Pain Medicine               10
+Pediatrics                 290
+Rheumatology                36
+Sleep Medicine              41
+Sports Medicine             23
+dtype: int64
+
+=== Row counts by Source File x Specialty ===
+Source File                                   Specialty              
+CCHP MediCal Provider Directory 20260814.pdf  Bariatric Surgery           10
+                                              Family Medicine            242
+                                              Geriatric Medicine           1
+                                              Infectious Disease          25
+                                              Internal Medicine           74
+                                              Maternal Fetal Medicine      3
+                                              Neurology                   26
+                                              Orthopedics - General      196
+                                              Pain Medicine               10
+                                              Pediatrics                 148
+                                              Rheumatology                36
+                                              Sleep Medicine              41
+                                              Sports Medicine             23
+CCHP Provider Directory.pdf                   Family Medicine            108
+                                              Internal Medicine            1
+                                              Pediatrics                  16
+PD3RMCCPN.pdf                                 Family Medicine            176
+                                              Geriatric Medicine           1
+                                              Internal Medicine           67
+                                              Maternal Fetal Medicine      3
+                                              Pediatrics                 126
+dtype: int64
+
+=== Sections confirmed absent from source TOC (skipped) ===
+medical: Spine, Occupational Medicine
+commercial_a: Bariatric Surgery, Orthopedics - General, Sports Medicine, Spine, Geriatric Medicine, Occupational Medicine, Maternal Fetal Medicine, Sleep Medicine, Rheumatology, Pain Medicine, Infectious Disease, Neurology
+commercial_b: Bariatric Surgery, Orthopedics - General, Sports Medicine, Spine, Occupational Medicine, Sleep Medicine, Rheumatology, Pain Medicine, Infectious Disease, Neurology

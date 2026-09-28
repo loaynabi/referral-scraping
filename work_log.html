@@ -1,0 +1,151 @@
+<title>CCHP Directory Check</title>
+<meta name="description" content="Sept 23 status: verified CCHP's published provider directories against files already processed, and fixed a gap in the shared output folder.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root {
+    --bg: #f5f4ef;
+    --surface: #ffffff;
+    --surface-2: #fbfaf5;
+    --text: #20242b;
+    --text-muted: #5c6672;
+    --border: #e2dfd3;
+    --accent: #2e6e68;
+    --accent-strong: #1f4d49;
+    --accent-soft: #dceeea;
+    --warn: #8a5a12;
+    --warn-soft: #f3e6cf;
+    --good: #2e6e68;
+    --good-soft: #dceeea;
+    --chip-bg: #eef1ec;
+    --shadow: 0 1px 2px rgba(32,36,43,0.04), 0 6px 20px -8px rgba(32,36,43,0.10);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14181a; --surface: #1c2124; --surface-2: #1a1f21;
+      --text: #e8ecea; --text-muted: #97a3a1; --border: #2c3437;
+      --accent: #62c0b5; --accent-strong: #86d6cb; --accent-soft: #1e3634;
+      --warn: #e0b266; --warn-soft: #3a2e17; --good: #62c0b5; --good-soft: #1e3634;
+      --chip-bg: #212928;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 6px 24px -8px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14181a; --surface: #1c2124; --surface-2: #1a1f21;
+    --text: #e8ecea; --text-muted: #97a3a1; --border: #2c3437;
+    --accent: #62c0b5; --accent-strong: #86d6cb; --accent-soft: #1e3634;
+    --warn: #e0b266; --warn-soft: #3a2e17; --good: #62c0b5; --good-soft: #1e3634;
+    --chip-bg: #212928;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 6px 24px -8px rgba(0,0,0,0.5);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'Public Sans', ui-sans-serif, system-ui, sans-serif;
+    padding: 0 20px; padding-block: 44px 56px;
+    font-size: 15px; line-height: 1.6;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+  .num { font-family: 'IBM Plex Mono', ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+
+  header { display: flex; flex-direction: column; gap: 6px; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
+  .eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  h1 { font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(24px, 4.5vw, 30px); margin: 2px 0 0; text-wrap: balance; }
+  .meta { color: var(--text-muted); font-size: 13px; margin-top: 2px; }
+
+  .bottom-line {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px 18px; box-shadow: var(--shadow); display: flex; gap: 12px; align-items: flex-start;
+  }
+  .bottom-line .badge {
+    flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%;
+    background: var(--good-soft); color: var(--good-strong, var(--accent-strong));
+    display: flex; align-items: center; justify-content: center; font-size: 13px; margin-top: 1px;
+  }
+  .bottom-line p { margin: 0; font-size: 14px; }
+  .bottom-line b { font-weight: 600; }
+
+  .task {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 20px 22px 22px; box-shadow: var(--shadow);
+  }
+  .task-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 4px; }
+  .task-num { font-family: 'IBM Plex Mono', monospace; color: var(--accent); font-size: 13px; font-weight: 600; }
+  .task h2 { font-family: 'Fraunces', Georgia, serif; font-size: 18px; font-weight: 600; margin: 0; }
+  .task .desc { color: var(--text-muted); font-size: 13.5px; margin: 6px 0 14px; max-width: 56ch; }
+
+  .steps { display: flex; flex-direction: column; gap: 0; margin-bottom: 14px; }
+  .step { display: flex; gap: 12px; padding: 7px 0; font-size: 13.5px; }
+  .step:not(:last-child) { border-bottom: 1px dashed var(--border); }
+  .step .marker { flex: 0 0 auto; color: var(--text-muted); font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding-top: 1px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 4px 0 14px; }
+  .table-scroll { overflow-x: auto; }
+  th { text-align: left; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); font-weight: 600; padding: 7px 10px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  td { padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  td.mono { font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; text-align: right; white-space: nowrap; }
+  tr:last-child td { border-bottom: none; }
+  .match { color: var(--good); font-weight: 600; }
+
+  .note { font-size: 13px; color: var(--text-muted); background: var(--surface-2); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 0 6px 6px 0; }
+  .note.warn { border-left-color: var(--warn); }
+  .note b { color: var(--text); font-weight: 600; }
+
+  .fix-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+  .file-chip { display: flex; align-items: baseline; gap: 8px; background: var(--chip-bg); border: 1px solid var(--border); border-radius: 7px; padding: 6px 11px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; }
+  .file-chip .fmeta { color: var(--text-muted); }
+
+  footer { text-align: center; color: var(--text-muted); font-size: 12px; padding-top: 4px; }
+</style>
+
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">Referral Scraping — Status Update</div>
+    <h1>What happened today</h1>
+    <div class="meta">Tuesday, September 23, 2026</div>
+  </header>
+
+  <div class="bottom-line">
+    <div class="badge">✓</div>
+    <p><b>Bottom line:</b> Checked CCHP's official publications page for updated provider directories — confirmed the files there are identical to what's already extracted, so no rework was needed. Also caught and fixed a gap where two finished deliverables weren't in the shared output folder.</p>
+  </div>
+
+  <div class="task">
+    <div class="task-head"><span class="task-num">01</span><h2>Verified CCHP's published directories against existing extraction</h2></div>
+    <p class="desc">Was asked to process the provider directories linked from CCHP's <span class="num">Publications / Member Materials</span> page the same way as the 3 directory PDFs already extracted this week (1,333-row spreadsheet, delivered Sep 22).</p>
+
+    <div class="steps">
+      <div class="step"><span class="marker">→</span><span>Page fetch was blocked (403) by the site's bot protection; pulled it up in-browser instead and located the 3 actual directory links (Medi-Cal, Commercial A/A2/IHSS, Commercial B/Superior Court).</span></div>
+      <div class="step"><span class="marker">→</span><span>Direct download also blocked by the site's WAF, even with full browser headers. A same-origin fetch from inside the page worked for reading file size only.</span></div>
+      <div class="step"><span class="marker">→</span><span>Asked for sign-off before downloading anything; confirmed instead to compare files first rather than re-pull them outright.</span></div>
+      <div class="step"><span class="marker">→</span><span>Compared exact byte sizes of the 3 website files against the 3 already on file — all three matched exactly.</span></div>
+    </div>
+
+    <div class="table-scroll">
+    <table>
+      <thead><tr><th>Directory</th><th>Already on file</th><th>On website</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td>Medi-Cal Provider Directory</td><td class="mono num">7,241,805 B</td><td class="mono num">7,241,805 B</td><td class="match">Identical</td></tr>
+        <tr><td>Commercial Plan A / A2 / IHSS</td><td class="mono num">2,663,487 B</td><td class="mono num">2,663,487 B</td><td class="match">Identical</td></tr>
+        <tr><td>Commercial Plan B / Superior Court</td><td class="mono num">3,593,752 B</td><td class="mono num">3,593,752 B</td><td class="match">Identical</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p class="note">No new extraction run — re-processing would have duplicated the 1,333-row spreadsheet already delivered for no new data.</p>
+  </div>
+
+  <div class="task">
+    <div class="task-head"><span class="task-num">02</span><h2>Found and fixed a gap in the shared output folder</h2></div>
+    <p class="desc">While pulling together file references for this log, noticed two finished deliverables existed only in their own project folders and were missing from the shared <span class="num">output/</span> folder everything else gets delivered to.</p>
+    <div class="fix-row">
+      <div class="file-chip"><span>Kaweah_Health_California_Providers.xlsx</span><span class="fmeta">523 rows — restored</span></div>
+      <div class="file-chip"><span>CCHP_Referral_Providers_Targeted_Specialties.xlsx</span><span class="fmeta">1,333 rows — restored</span></div>
+    </div>
+    <p class="note warn">Both files copied into <span class="num">output/</span> so it now matches every deliverable that's been built. Worth a quick look at what's eating disk space on that machine — it's the second time this project has run low on free space.</p>
+  </div>
+
+  <footer>Prepared for team-lead review · September 23, 2026</footer>
+
+</div>

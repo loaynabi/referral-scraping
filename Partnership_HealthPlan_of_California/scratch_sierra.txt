@@ -1,0 +1,116 @@
+0	Reynolds, Gregory Arno, MD
+1	NPI: 1790158848
+2	License: A164998
+3	Gender: Male
+4	Race: Unknown
+5	Ethnicity: Unknown
+6	Internal Medicine
+7	Fanoni, Michelle A, DO
+8	NPI: 1790314961
+9	License: 21368
+10	Gender: Female
+11	Hospital Privileges: Sutter Auburn
+12	Faith Hospital
+13	Race: Unknown
+14	Ethnicity: Unknown
+15	Kanomata, Thomas Isao, MD
+16	NPI: 1659336543
+17	License: G130263
+18	Gender: Male
+19	Japanese
+20	Race: Asian
+21	Ethnicity: Unknown
+22	Pediatrics
+23	Haidari, Eman Haidari, MD
+24	♦ Neonatal-Perinatal Medicine
+25	♦ Pediatrics
+26	NPI: 1891131041
+27	License: A132201
+28	Gender: Female
+29	Spanish
+30	Hospital Privileges:
+31	Mercy General Hospital
+32	Mercy Hospital of Folsom
+33	Mercy San Juan Hospital
+34	Methodist Hospital of Sacramento
+35	CCS Provider
+36	Race: Unknown
+37	Ethnicity: Unknown
+38	Bernasconi, Alexandra Marie, PA-C
+39	N^263^ PI: 1245514512
+40	License: 21844
+41	Gender: Female
+42	Race: Unknown
+43	Ethnicity: Unknown
+44	Clary, Jessica Lynn, PA-C
+45	NPI: 1114487071
+46	License: 58690
+47	Gender: Female
+48	Race: Unknown
+49	Ethnicity: Unknown
+50	Colvin, Jed Thomas, NP
+51	NPI: 1528315538
+52	License: 22027
+53	Gender: Male
+54	Race: Unknown
+55	Ethnicity: Unknown
+56	Nichols, Trevor L, PA-C
+57	NPI: 1588602833
+58	License: 15484
+59	Gender: Male
+60	Race: Unknown
+61	Ethnicity: Unknown
+62	Special Accommodations: Adj. Exam
+63	Tables
+64	Kuldip Gill MD PC
+65	PCP PHC#:64342-0004
+66	NPI: 1932397601
+67	Internal Medicine
+68	Accepting Existing Patients
+69	Years and Older
+70	Sierra College Dr Ste
+71	Grass Valley, CA 95945
+72	P,EB,R,E
+73	Level of Access: Limited
+74	Primary Phone: (530) 273-8452
+75	Primary Fax: (530) 477-5182
+76	Punjabi
+77	Mon - Fri 7:00 AM - 5:00 PM
+78	Internal Medicine
+79	Gill, Kuldip Singh, MD
+80	NPI: 1295882769
+81	License: A61538
+82	Gender: Male
+83	Punjabi
+84	Race: Unknown
+85	Ethnicity: Unknown
+86	Special Accommodations: Adj. Exam
+87	Tables, Scales that weigh up to
+88	500lbs
+89	Sierra Care Physicians
+90	PCP PHC#:111604-0003
+91	NPI: 1427072008
+92	Family Medicine
+93	Accepting Existing Patients
+94	Years and older
+95	Litton Dr Ste
+96	Grass Valley, CA 95945
+97	P,IB
+98	Level of Access: Limited
+99	Primary Phone: (530) 272-9770
+100	Primary Fax: (530) 272-9796
+101	Mon - Fri 8:00 AM - 5:00 PM
+102	Family Medicine
+103	Nguyen, Huy Anh, DO
+104	NPI: 1467400853
+105	License: 20A7977
+106	Gender: Male
+107	Vietnamese
+108	Race: Asian
+109	Ethnicity: Unknown
+110	McIntosh, Linda Marie, NP
+111	NPI: 1497977219
+112	License: 14364
+113	Gender: Female
+114	Race: Unknown
+115	Ethnicity: Unknown

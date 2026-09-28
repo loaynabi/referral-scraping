@@ -1,0 +1,93 @@
+C1. Primary Care Providers (PCP) / Médicos De Atención
+Primaria / / Bác Sĩ Chăm Sóc Chính
+េវជបណិតែថំ បឋម
+Jafri, Asma, MD Nguyen, James, MD 500 W Hospital Rd Ste B
+ἱὑ ἱ
+Female | License: A36753 Male | License: A191970 French Camp, CA 95231
+Specialty: Family Medicine Specialty: Family Medicine NPI: 1134573827
+San Joaquin General Hospital San Joaquin General Hospital 209-953-6400
+ὗ
+500 W Hospital Rd 500 W Hospital Rd M-F:8am-5pm
+ὕ
+French Camp, CA 95231 French Camp, CA 95231 Spanish
+὞
+NPI: 1487700894 NPI: 1982270369 E, EB, IB, P, R
+♿
+209-468-6820 209-468-6820 Board Certified: Y
+ὗ ὗ
+M-F:8am-5pm M-F:8am-5pm
+ὕ ὕ
+὞ Hindi, Portuguese, Spanish ὞ Hindi, Portuguese, Spanish, Wunnava, Bhanu, MD ἱ
+E, EB, IB, P, R Vietnamese Male | License: A117871
+♿
+Board Certified: Y E, EB, IB, P, R Specialty: Family Medicine
+♿
+Board Certified: Y San Joaquin General Hospital
+Ley-Han, Hector, MD 500 W Hospital Rd Ste B
+ἱὑ
+Male | License: G80110 Saffier, James, MD French Camp, CA 95231
+ἱ
+Specialty: Family Medicine Male | License: G53151 NPI: 1497965677
+San Joaquin General Hospital Specialty: Family Medicine 209-953-6400
+ὗ
+500 W Hospital Rd Ste C San Joaquin General Hospital M,T,W:8am-9pm; Th,F:8am-5pm
+ὕ
+French Camp, CA 95231 500 W Hospital Rd Spanish
+὞
+NPI: 1134207020 French Camp, CA 95231 E, EB, IB, P, R
+♿
+209-468-6820 NPI: 1912929464 Board Certified: Y
+ὗ
+M-F:8am-5pm 209-468-6820
+ὕ ὗ
+὞ Spanish ὕ M-F:8am-5pm Zuniga, Ramiro, MD ἱ ὑ
+E, EB, IB, P, R Hindi, Portuguese, Spanish Male | License: A54857
+♿ ὞
+Board Certified: Y E, EB, IB, P, R Specialty: Family Medicine
+♿
+Board Certified: Y San Joaquin General Hospital
+500 W Hospital Rd 500 W Hospital Rd Ste B
+French Camp, CA 95231 Shrivastava, Deepak, MD French Camp, CA 95231
+ἱ
+NPI: 1134207020 Male | License: A45770 NPI: 1679593198
+209-468-6820 Specialty: Family Medicine 209-953-6400
+ὗ ὗ
+M-F:8am-5pm San Joaquin General Hospital M-F:8am-5pm
+ὕ ὕ
+Spanish 500 W Hospital Rd Spanish
+὞ ὞
+E, T, IB, P, R French Camp, CA 95231 E, EB, IB, P, R
+♿ ♿
+Board Certified: Y NPI: 1841267317 Board Certified: Y
+209-468-6820
+ὗ
+Munagala, Shailaja, MD
+ἱὑ M-F:8am-5pm Lathrop
+ὕ
+Female | License: C153868 Hindi, Portuguese, Spanish
+Specialty: Family Medicine ὞ E, EB, IB, P, R Maheshwari, Rajesh, MD ἱ
+San Joaquin General Hospital ♿ Board Certified: Y Male | License: A109707
+500 W Hospital Rd Ste C Specialty: Family Medicine
+French Camp, CA 95231 Tranquille, Yvan, MD Lathrop Urgent Care
+ἱ
+NPI: 1538470604 Male | License: A162036 15810 S Harlan Rd Ste A
+209-468-6820 Specialty: Family Medicine Lathrop, CA 95330
+ὗ
+M-Th:7am-7pm San Joaquin General Hospital NPI: 1740431246
+ὕ
+Spanish 500 W Hospital Rd Ste C 209-983-9000
+὞ ὗ
+E, EB, IB, P, R French Camp, CA 95231 M-Sa:9am-5pm
+♿ ὕ
+Board Certified: Y NPI: 1134573827 Hindi, Khmer, Punjabi, Spanish,
+὞
+209-468-6820 Urdu
+ὗ
+M-F:7am-5pm E, EB, IB, P, R
+ὕ ♿
+Spanish Board Certified: N
+὞
+E, EB, IB, P, R
+♿
+Board Certified: Y
+75

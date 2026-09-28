@@ -1,0 +1,215 @@
+=== COLUMN 0 (0-175) ===
+  [18] C1. Primary
+  [34] Primaria
+  [57] Morrison, Susan, MD
+  [63] ἱὑ
+  [70] Female | License: A77045
+  [83] Specialty: Family Medicine
+  [96] Community Medical Centers
+  [109] 7912 West Ln Ste 221
+  [122] Stockton, CA 95210
+  [135] NPI: 1215013628
+  [148] 209-636-5000
+  [154] ὗ
+  [161] M-Th:8am-8pm; F:8am-6pm;
+  [167] ὕ
+  [175] Sa:8am-4pm
+  [187] Spanish, Chinese
+  [193] ὞
+  [200] E, T, EB, IB, P, R
+  [206] ♿
+  [213] Board Certified: Y
+  [236] Nguyen, Bao, MD
+  [242] ἱ
+  [249] Male | License: A92725
+  [262] Specialty: Family Medicine
+  [275] March Lane Medical Clinic Inc
+  [288] 7743 West Ln Ste A1
+  [301] Stockton, CA 95210
+  [314] NPI: 1821032475
+  [327] 209-477-4380
+  [333] ὗ
+  [340] M-F:9am-5pm
+  [346] ὕ
+  [352] Khmer
+  [358] ὞
+  [365] E, T, EB, IB, P, R
+  [371] ♿
+  [378] Board Certified: Y
+  [401] Parajuli, Sadichchha, MD
+  [407] ἱ
+  [414] Female | License: A200534
+  [427] Specialty: Family Medicine
+  [440] Community Medical Centers
+  [453] 1031 Waterloo Rd
+  [466] Stockton, CA 95205
+  [479] NPI: 1306580444
+  [492] 209-940-5600
+  [498] ὗ
+  [505] M-Th:7am-8pm; F:7am-6pm;
+  [511] ὕ
+  [519] Sa:8am-4pm
+  [531] Hindi, Spanish
+  [537] ὞
+  [544] T, E, EB, IB, P, R
+  [550] ♿
+  [557] Board Certified: Y
+  [580] Pinches, John, MD
+  [586] ἱ
+  [593] Male | License: A197536
+  [606] Specialty: Family Medicine
+  [619] Community Medical Centers
+  [632] 701 E Channel St
+  [645] Stockton, CA 95202
+  [658] NPI: 1285374215
+  [671] 209-944-4700
+  [677] ὗ
+  [684] M-F:8am-5pm
+  [690] ὕ
+  [696] Spanish
+  [702] ὞
+  [709] E, EB, IB, P, R
+  [715] ♿
+  [722] Board Certified: Y
+  [764] 80
+=== COLUMN 1 (175-385) ===
+  [18] Care Providers (PCP) / Médicos
+  [34] / / Bác Sĩ Chăm
+  [38] េវជបណិតែថំ បឋម
+  [57] Pinches, Yiuing, MD
+  [63] ἱὑ
+  [70] Female | License: A198880
+  [83] Specialty: Family Medicine
+  [96] Community Medical Centers
+  [109] 545 W Sonora St Bldg 1
+  [122] Stockton, CA 95203
+  [135] NPI: 1902546930
+  [148] 209-337-3298
+  [154] ὗ
+  [161] M-F:8am-5pm
+  [167] ὕ
+  [173] Spanish
+  [179] ὞
+  [186] E, T, EB, P, R
+  [192] ♿
+  [199] Board Certified: Y
+  [222] Rajput, Priyanka, MD
+  [228] ἱ
+  [235] Female | License: 195194
+  [248] Specialty: Family Medicine
+  [261] Community Medical Centers
+  [274] 701 E Channel St
+  [287] Stockton, CA 95202
+  [300] NPI: 1114691870
+  [313] 209-944-4700
+  [319] ὗ
+  [326] M-F:8am-8pm; Sa:8am-4pm
+  [332] ὕ
+  [338] Spanish
+  [344] ὞
+  [351] E, EB, IB, P, R
+  [357] ♿
+  [364] Board Certified: Y
+  [387] Reddy, Raghunath, MD
+  [393] ἱ
+  [400] Male | License: A49255
+  [413] Specialty: Family Medicine
+  [426] 1805 N California St Ste 102
+  [439] Stockton, CA 95204
+  [452] NPI: 1689775819
+  [465] 209-946-4000
+  [471] ὗ
+  [478] M-F:8am-12pm & 1pm-5pm
+  [484] ὕ
+  [490] Hindi, Punjabi, Spanish, Telugu,
+  [496] ὞
+  [503] Urdu
+  [516] E, EB, IB, P, R
+  [522] ♿
+  [529] Board Certified: N
+  [552] Sunny Mann MD Inc.
+  [558] ἱ
+  [565] Specialty: Family Medicine
+  [578] Sunny Mann MD Inc.
+  [591] 2216 N California St Ste A
+  [604] Stockton, CA 95204
+  [617] NPI: 1104609122
+  [630] 209-851-2065
+  [636] ὗ
+  [643] M-F:8am-5pm
+  [649] ὕ
+  [655] English
+  [661] ὞
+  [668] E, T, EB, IB, P, R
+  [674] ♿
+  [681] Board Certified: N
+=== COLUMN 2 (385-999) ===
+  [18] De Atención
+  [34] Sóc Chính
+  [57] Tanson, Elvis, DO
+  [63] ἱ
+  [70] Male | License: 20A7605
+  [83] Specialty: Family Medicine
+  [96] Westlane Medical Clinic, Inc.
+  [109] 4873 West Ln Ste A
+  [122] Stockton, CA 95210
+  [135] NPI: 1720136138
+  [148] 209-472-1515
+  [154] ὗ
+  [161] M-F:8am-5pm
+  [167] ὕ
+  [173] Hmong, Khmer, Spanish
+  [179] ὞
+  [186] E, EB, IB, P, R
+  [192] ♿
+  [199] Board Certified: N
+  [222] Tanson, Gabriel, MD
+  [228] ἱ
+  [235] Male | License: A32550
+  [248] Specialty: Family Medicine
+  [261] Westlane Medical Clinic, Inc.
+  [274] 4873 West Ln Ste A
+  [287] Stockton, CA 95210
+  [300] NPI: 1023053105
+  [313] 209-472-1515
+  [319] ὗ
+  [326] M-F:8am-12pm & 1pm-5pm
+  [332] ὕ
+  [338] Hmong, Khmer, Spanish
+  [344] ὞
+  [351] E, EB, IB, P, R
+  [357] ♿
+  [364] Board Certified: N
+  [387] Taymour E. Malak, M.D.
+  [393] ἱ
+  [400] Specialty: Family Medicine
+  [413] Taymour E. Malak, M.D.
+  [426] 2800 N California St Ste 11
+  [439] Stockton, CA 95204
+  [452] NPI: 1104931260
+  [465] 209-465-5891
+  [471] ὗ
+  [478] M-F:8am-5pm
+  [484] ὕ
+  [490] Spanish
+  [496] ὞
+  [503] EB, IB, P, R
+  [509] ♿
+  [516] Board Certified: N
+  [539] Tranquille, Yvan, MD
+  [545] ἱ
+  [552] Male | License: A162036
+  [565] Specialty: Family Medicine
+  [578] San Joaquin General Hospital
+  [591] 1414 N California St Ste A
+  [604] Stockton, CA 95202
+  [617] NPI: 1134573827
+  [630] 209-953-6400
+  [636] ὗ
+  [643] M-F:7am-5pm
+  [649] ὕ
+  [655] Spanish
+  [661] ὞
+  [668] E, EB, IB, P, R, T
+  [674] ♿
+  [681] Board Certified: Y
